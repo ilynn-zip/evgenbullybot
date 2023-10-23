@@ -1,6 +1,6 @@
 import configure
 import logic
-from back import keep_alive
+#from back import keep_alive
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
