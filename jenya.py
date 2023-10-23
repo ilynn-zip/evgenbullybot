@@ -1,6 +1,6 @@
 import configure
 import logic
-#from back import keep_alive
+from back import keep_alive
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
@@ -55,7 +55,7 @@ async def handle_messages(update: Update, context:ContextTypes.DEFAULT_TYPE):
 async def error (update:Update, context:ContextTypes.DEFAULT_TYPE):
     print(f'Update {update} \n*caused error {context.error}')
 
-#keep_alive()
+keep_alive()
 if __name__ == '__main__':
 
     print('Starting...')
