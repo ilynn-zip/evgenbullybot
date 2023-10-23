@@ -55,7 +55,7 @@ async def handle_messages(update: Update, context:ContextTypes.DEFAULT_TYPE):
 async def error (update:Update, context:ContextTypes.DEFAULT_TYPE):
     print(f'Update {update} \n*caused error {context.error}')
 
-keep_alive()
+#keep_alive()
 if __name__ == '__main__':
 
     print('Starting...')
