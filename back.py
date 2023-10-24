@@ -1,8 +1,8 @@
 from flask import Flask, request
 from threading import Thread
 from waitress import serve
-import time
-import requests
+#import time
+#import requests
  
  
 app = Flask('')
